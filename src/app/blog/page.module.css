@@ -5,29 +5,29 @@
 
 .post {
   background: #fff;
-  border-radius: 1rem;
   border: 1px solid var(--border);
-  padding: 1.5rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  padding: 1.5rem;
 }
 
 .date {
-  font-size: 0.85rem;
   color: #475569;
+  font-size: 0.85rem;
 }
 
 .tagList {
   display: flex;
-  gap: 0.5rem;
   flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .tag {
   background: var(--accent-muted);
-  color: var(--accent);
-  padding: 0.25rem 0.75rem;
   border-radius: 999px;
+  color: var(--accent);
   font-size: 0.85rem;
+  padding: 0.25rem 0.75rem;
 }

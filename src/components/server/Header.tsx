@@ -6,7 +6,8 @@ import { navItems, siteMetadata } from '@/lib/constants';
 
 import styles from './header.module.css';
 
-const siteTitle = typeof siteMetadata.title === 'string' ? siteMetadata.title : 'Next CMS';
+const siteTitle =
+  typeof siteMetadata.title === 'string' ? siteMetadata.title : 'Next CMS';
 
 const Header = () => {
   return (

@@ -6,14 +6,14 @@
 
 .item {
   background: #fff;
-  border-radius: 1rem;
   border: 1px solid var(--border);
+  border-radius: 1rem;
   padding: 1.5rem;
 }
 
 .title {
-  margin: 0 0 0.5rem;
   font-size: 1.1rem;
+  margin: 0 0 0.5rem;
 }
 
 .body {
@@ -22,7 +22,7 @@
 }
 
 .meta {
-  font-size: 0.85rem;
   color: #94a3b8;
+  font-size: 0.85rem;
   margin-bottom: 0.75rem;
 }

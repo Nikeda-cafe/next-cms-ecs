@@ -25,12 +25,12 @@ const ContactForm = () => {
     );
   }, [formState]);
 
-  const handleChange = (field: keyof FormState) => (
-    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-  ) => {
-    setSubmitted(false);
-    setFormState((prev) => ({ ...prev, [field]: event.target.value }));
-  };
+  const handleChange =
+    (field: keyof FormState) =>
+    (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+      setSubmitted(false);
+      setFormState((prev) => ({ ...prev, [field]: event.target.value }));
+    };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();

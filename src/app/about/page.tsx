@@ -17,7 +17,8 @@ const AboutPage = () => {
       <section className={styles.panel}>
         <h1>このプロジェクトについて</h1>
         <p>
-          Next CMS Starterは、App RouterとRSCを日常的に扱うチームのために作られたNext.jsの土台です。
+          Next CMS Starterは、App
+          RouterとRSCを日常的に扱うチームのために作られたNext.jsの土台です。
           プロトタイプから本番まで、一貫したDXを提供することを目的としています。
         </p>
         <ul className={styles.list}>
