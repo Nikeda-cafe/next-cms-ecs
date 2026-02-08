@@ -33,7 +33,7 @@ const PostsPage = async () => {
   return (
     <section>
       <div className={styles.header}>
-        <h1>外部APIからの投稿一覧</h1>
+        <h1>外部APIからの取得した投稿一覧</h1>
         <p className={styles.description}>
           JSONPlaceholderのREST APIをServer
           Componentで取得し、子コンポーネントにpropsとして渡しています。
