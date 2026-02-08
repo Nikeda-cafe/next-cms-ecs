@@ -18,7 +18,7 @@ const BlogPage = async () => {
 
   return (
     <div>
-      <h1>ブログ</h1>
+      <h1>ブログ記事一覧</h1>
       <p>設計と運用のナレッジを少しずつ公開しています。</p>
       <div className={styles.grid}>
         {posts.map((post) => (
